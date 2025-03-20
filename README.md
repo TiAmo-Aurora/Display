@@ -27,6 +27,7 @@ https://github.com/user-attachments/assets/109a5b6e-c354-46ef-abf2-14ffede8b725
 ### 分支流向
 - master (主分支) / develop (集成分支) / 功能分支
 
+<<<<<<< HEAD
 *    (master)  v1.0 Release (合并自 develop)  
 |\
 | *  (develop) 合并测试通过的UI和性能优化 [CI/CD通过]  
@@ -67,3 +68,7 @@ ssscccc
 =======
 ssssss
 >>>>>>> ui/dashboard
+=======
+---
+aaaaaS
+>>>>>>> bug
