@@ -43,5 +43,23 @@ https://github.com/user-attachments/assets/109a5b6e-c354-46ef-abf2-14ffede8b725
 |
 *    Initial commit  
 
+## 迭代过程
 
+### Iteration 1
+- **分支**: feature/user-auth
+- **合并**: PR合并到 develop
+- **分支**: perf/database-index
+- **合并**: PR合并到 develop
 
+### Iteration 2
+- **分支**: ui/dashboard
+- **合并**: PR合并到 develop
+- **分支**: fix/login-error
+- **合并**: PR合并到 develop
+
+### 合并到主分支
+- develop 合并到 master
+- 发布版本: v1.0 Release
+
+。xxx
+sss
