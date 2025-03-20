@@ -19,32 +19,29 @@
   ## 项目演示
 https://github.com/user-attachments/assets/109a5b6e-c354-46ef-abf2-14ffede8b725
 
-## 技术栈
-- springboot：快速开发Java应用程序
-- security：具备强大的鉴权授权
-- nacos：服务注册与发现
-- openfeign：远程调用服务
-- gateway：请求入口与路由网关
-- redis：跨服务缓存
-- elasticsearch：更快的查询与更高的查询匹配度
-- rocketmq：异步处理队列
-- minio：文件对象存储
-- mybatis-plus：便捷执行单表增删改查
-- mybatis-plus-join：业务层多表查询
-- druid：阿里数据库连接池
-- jwt：token实现形式
-- swagger：接口文档
-- gson：谷歌序列化转换
-- hutool：集成众多工具类省去手动实现工具类
-- websocket：实时长连接
-- 讯飞星火api：集成大模型功能
-- jave：视频操作，转码、压缩、截图、去水印等
-- xxl-job：分布式可视化定时任务
-- zipkin：请求链路追踪信息可视化ui
-- slueth：发送请求链路追踪信息
+## 项目迭代与分支流向
 
-## 项目地址
+### 时间线
+- Iteration 1 → Iteration 2 → 发布
 
-项目地址：[https://labilibili.com](https://labilibili.com)，欢迎访问项目，给GitHub点个小星星就更好啦
+### 分支流向
+- master (主分支) / develop (集成分支) / 功能分支
 
----
+*    (master)  v1.0 Release (合并自 develop)  
+|\
+| *  (develop) 合并测试通过的UI和性能优化 [CI/CD通过]  
+| |\
+| | *  (ui/dashboard) 完成仪表盘布局 [UI组提交] → 发起PR → 合并到 develop  
+| | *  (perf/database-index) 优化数据库查询 [性能组提交] → 发起PR → 合并到 develop  
+| |/
+| *  (develop) 合并用户登录功能 [核心功能组]  
+| |\
+| | *  (feature/user-auth) 用户认证模块开发 [核心组提交] → 发起PR → 合并到 develop  
+| |/
+|/
+*    (master)  v0.9 Beta (初始版本)  
+|
+*    Initial commit  
+
+
+
